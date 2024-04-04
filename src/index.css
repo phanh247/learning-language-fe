@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Nunito Sans', sans-serif;;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -32,11 +32,6 @@ code {
   border: 1px solid black;
 }
 
-.c-button {
-  padding: 0 5px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border: 1px solid black;
-}
 
 
 

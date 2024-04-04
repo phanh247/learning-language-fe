@@ -1,6 +1,7 @@
 import React from 'react';
 import '../flashcard/Flashcard.css';
 
+// done
 const FrontCard = ({ cardData }) => {
     return (
         <div className='front-card front-card__content flashcard-content'>
