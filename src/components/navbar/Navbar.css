@@ -6,3 +6,12 @@
     width: 100%;
     padding: 10px 0;
 }
+
+/* ---------------- learn page navbar ---------------- */
+.learn-page-navbar__nav-item img{
+    width: 40px;
+}
+
+.learn-page-navbar__nav-item {
+    padding: 0 20px;
+}

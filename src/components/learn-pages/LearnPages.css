@@ -1,0 +1,11 @@
+.choose-path-page__button {
+    padding: 30px;
+    margin: 0 30px;
+    border: 4px dashed #667abe;
+    cursor: pointer;
+}
+
+.choose-path-page__button:hover {
+    background-color: #f0e5e1;
+}
+
