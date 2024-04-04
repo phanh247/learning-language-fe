@@ -1,0 +1,32 @@
+.flashcard {
+    position: absolute;
+    width: 850px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new-word {
+    margin: 0 auto;
+}
+
+.navigation {
+    margin-bottom: 0;
+}
+
+.flashcard-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.back-card {
+    height: inherit;
+}
+
+
+

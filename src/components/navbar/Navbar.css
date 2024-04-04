@@ -1,0 +1,8 @@
+.top-navbar img {
+    display: inline-block;
+}
+
+.top-navbar div {
+    width: 100%;
+    padding: 10px 0;
+}
