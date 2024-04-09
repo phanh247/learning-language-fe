@@ -4,9 +4,11 @@ import LearnPageSideNavbar from '../navbar/LearnPageSideNavbar';
 
 const LessonPage = () => {
     return (
-        <div>
+        <div className='lesson-page'>
             <LearnPageNavbar />
+            
             <LearnPageSideNavbar />
+
         </div>
     );
 };

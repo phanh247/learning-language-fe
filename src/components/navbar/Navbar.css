@@ -24,7 +24,7 @@
     right: 20px;
     border-radius: 12px;
     background-color: #eed43d;
-    display: block;
+    display: none;
 }
 
 .learn-age-navbar__flag-item,
