@@ -2,6 +2,7 @@ import React from 'react';
 import HomepageNavbar from '../navbar/HomepageNavbar';
 import Header from './Header';
 import CourseSelection from './CourseSelection';
+import PopularCourse from './PopularCourse';
 
 
 const MainHomepage = () => {
@@ -10,6 +11,7 @@ const MainHomepage = () => {
             <HomepageNavbar />
             <Header />
             <CourseSelection />
+            <PopularCourse />
         </div>
     );
 };

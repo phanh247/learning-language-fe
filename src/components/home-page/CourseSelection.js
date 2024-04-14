@@ -1,5 +1,5 @@
 import React from 'react';
-import '../home-page/Homepages.css';
+import '../home-page/Homepage.css';
 import UKFlag from '../../images/england-flag-round.svg';
 import ChinaFlag from '../../images/china-flag-round.svg';
 import JapanFlag from '../../images/japan-flag-round.svg';
@@ -16,7 +16,7 @@ import TaiwanFlag from '../../images/taiwan-flag-round.svg';
 
 const CourseSelection = () => {
     return (
-        <div className='course-selection px-[7%] py-[3%] h-screen'>
+        <div className='course-selection px-[7%] py-[3%]'>
             <h2 className='course-selection__title text-3xl mb-20 font-bold'>Which <span className='text-[#667abe]'>language</span> do you want to learn?</h2>
             
             <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
