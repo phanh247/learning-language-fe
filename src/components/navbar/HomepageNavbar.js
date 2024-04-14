@@ -12,7 +12,7 @@ const HomepageNavbar = () => {
                         <a href="" className="homepage-navbar__learn-link">Learn</a>
                     </li>
                     <li className="homepage-navbar__nav-item">
-                        <a href="" className="homepage-navbar__courses-link">Topic</a>
+                        <a href="" className="homepage-navbar__courses-link">Courses</a>
                     </li>
                     <li className="homepage-navbar__nav-item">
                         <a href="" className="homepage-navbar__community-link">Community</a>

@@ -1,0 +1,13 @@
+.login__img {
+    background-image: url('../../images/login-page.svg');
+}
+
+.login__form-container form .login__text-input {
+    border: 1px solid black;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 350px;
+}
+

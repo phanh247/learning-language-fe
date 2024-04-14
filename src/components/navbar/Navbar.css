@@ -7,6 +7,27 @@
     padding: 10px 0;
 }
 
+.homepage-btn {
+    background-color: #ffdf00;
+    color: #3150aa;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; ;
+}
+
+.homepage-navbar__login-btn,
+.homepage-navbar__signup-btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin: 0 10px;
+    width: 120px;
+}
+
+.homepage-navbar__nav-item {
+    padding: 10px 30px;
+}
+
 /* ---------------- learn page navbar/side navbar ---------------- */
 .learn-page-navbar__nav-item img{
     width: 100%;
