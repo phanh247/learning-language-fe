@@ -25,7 +25,7 @@ const LoginForm = () => {
                                 <label htmlFor="" className='cursor-pointer'>Remember</label>
                             </div>
                             <div className="login__sub-input-item">
-                                <a href="">Forgot your password</a>
+                                <a href="">Forgot your passwordaa</a>
                             </div>
                         </div>
 
