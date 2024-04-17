@@ -1,5 +1,5 @@
 import React from 'react';
-import '../home-page/Homepage.css';
+import './Homepage.css';
 import Suzhou from '../../images/suzhou.svg';
 import NewYork from '../../images/newyork.svg';
 import Tokyo from '../../images/tokyo.svg';

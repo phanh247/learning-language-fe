@@ -7,7 +7,7 @@ import ChoosePathPage from './components/learn-pages/ChoosePathPage';
 import LessonPage from './components/learn-pages/LessonPage';
 import LoginForm from './components/login/LoginForm';
 import CourseHomepage from './components/course-page/CourseHomepage';
-import MainHomepage from './components/home-page/MainHomepage';
+import MainHomepage from './components/landing-page/MainHomepage';
 
 function App() {
   return (

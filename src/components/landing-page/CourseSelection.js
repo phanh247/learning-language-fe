@@ -1,5 +1,5 @@
 import React from 'react';
-import '../home-page/Homepage.css';
+import './Homepage.css';
 import UKFlag from '../../images/england-flag-round.svg';
 import ChinaFlag from '../../images/china-flag-round.svg';
 import JapanFlag from '../../images/japan-flag-round.svg';

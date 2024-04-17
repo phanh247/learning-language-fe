@@ -1,5 +1,5 @@
 import React from 'react';
-import '../home-page/Homepage.css';
+import './Homepage.css';
 import Image1 from '../../images/main-hp-img1.svg';
 
 const Header = () => {
