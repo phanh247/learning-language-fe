@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer__item">
-                    <h4 className='footer__title font-bold mb-5 uppercase'>For Students</h4>
+                    <h4 className='footer__title font-bold mb-5'>For Students</h4>
                     <ul className="footer-list">
                         <li className="footer__list-item mb-1">
                             <a href="" className='hover:underline'>Pricing</a>
