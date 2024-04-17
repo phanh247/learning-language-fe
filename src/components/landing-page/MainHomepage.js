@@ -6,6 +6,7 @@ import PopularCourse from './PopularCourse';
 import Statistics from './Statistics';
 import Category from './Category';
 import Testimonial from './Testimonial';
+import Footer from './Footer';
 
 
 const MainHomepage = () => {
@@ -19,6 +20,7 @@ const MainHomepage = () => {
             <PopularCourse />
             <Category />
             <Testimonial />
+            <Footer />
         </div>
     );
 };
