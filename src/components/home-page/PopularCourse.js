@@ -42,7 +42,7 @@ const PopularCourse = () => {
             </div>
 
             <div className="popular-course__btn-container mt-10">
-                <button className='popular-course__show-more-btn py-3 px-5 bg-[#fbdf00] text-[#3150aa] font-bold rounded-xl c-shadow'>SHOW MORE COURSE</button>
+                <button className='popular-course__show-more-btn py-3 px-5 bg-[#fbdf00] text-[#3150aa] font-bold rounded-xl c-shadow'>VIEW MORE COURSES</button>
             </div>
 
         </div>
