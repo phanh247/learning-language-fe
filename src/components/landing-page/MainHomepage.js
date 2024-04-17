@@ -9,10 +9,11 @@ import Testimonial from './Testimonial';
 import Footer from './Footer';
 
 
+
 const MainHomepage = () => {
 
     return (
-        <div  className='main-homepage bg-[#faf2ec]'>
+        <div  className='main-homepage bg-[#faf2ec] '>
             <HomepageNavbar />
             <Header />
             <Statistics />
@@ -21,6 +22,7 @@ const MainHomepage = () => {
             <Category />
             <Testimonial />
             <Footer />
+        
         </div>
     );
 };
