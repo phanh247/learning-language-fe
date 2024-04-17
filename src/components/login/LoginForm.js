@@ -4,15 +4,20 @@ import '../login/Login.css';
 import FacebookLogo from '../../images/facebook-icon.svg';
 import LinkedInLogo from '../../images/linkedin-icon.svg';
 import GmailLogo from '../../images/gmail-icon.svg';
+import { Link, useNavigate } from "react-router-dom";
 
 
 const LoginForm = () => {
+    const navigate = useNavigate();
+    const doLogin =()=>{
+        navigate("/login");
+    }
     return (
         <div className='login flex items-center justify-between h-screen'>
             <div className="login__form-container flex flex-col justify-between py-[7%] px[3%] my-0 mx-auto h-full">
 
                 {/* Login form */}
-                <div className="login__form">
+                <div className="login__form" >
                     <h1 className='text-3xl mb-14'>LOGIN</h1>
                     <form action="">
                         <input type="text" name="" id="" placeholder='username/email/phone number' className='login__text-input' />

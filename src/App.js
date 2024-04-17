@@ -4,19 +4,21 @@ import FlashCard from './components/flashcard/FlashCard';
 import Navbar from './components/navbar/Navbar';
 import CourseMainHomepage from './components/course-page/CourseHomepage';
 import ChoosePathPage from './components/learn-pages/ChoosePathPage';
-import LessonPage from './components/learn-pages/LessonPage';
 import LoginForm from './components/login/LoginForm';
 import CourseHomepage from './components/course-page/CourseHomepage';
 import MainHomepage from './components/landing-page/MainHomepage';
+import LearnPage from './components/learn-pages/LearnPage';
 
 function App() {
   return (
     <div className="App">
-      {/* <Routes>
-        <Route index   path="/" element={<CourseHomepage />}/>
-        <Route path='/login' element={<LoginForm />} />
-      </Routes> */}
-      <MainHomepage />
+      <Routes>
+        <Route path="/login" index element={<LoginForm />}/>
+        <Route path="/level" element={<ChoosePathPage/>}/>
+        <Route path="/learn" element={<LearnPage/>}/>
+        <Route path="/" element={<MainHomepage />}>
+        </Route>
+      </Routes>
     </div>
   );
 }
