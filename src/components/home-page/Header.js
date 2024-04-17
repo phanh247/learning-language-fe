@@ -4,8 +4,8 @@ import Image1 from '../../images/main-hp-img1.svg';
 
 const Header = () => {
     return (
-        <div className='header h-screen'>
-            <div className="header__content-container flex justify-between items-center ">
+        <div className='header h-screen relative'>
+            <div className="header__content-container absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full flex justify-between items-center">
                 <div className="header__content w-[60%] text-left px-[7%]">
                     
                     <h1 className='header__title text-6xl mb-5 font-bold'>Learn new <br /><span className='text-[#eed43d]'>languages</span> and <br />move <span className='text-[#667abe]'>forward</span></h1>

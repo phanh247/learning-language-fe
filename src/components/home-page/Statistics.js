@@ -2,7 +2,7 @@ import React from 'react';
 
 const Statistics = () => {
     return (
-        <div className='statistics px-[7%] py-[3%]'>
+        <div className='statistics px-[7%] py-[5%] relative'>
             <div className="statistics__container bg-[#667abe] rounded-xl flex justify-between items-center px-10 py-5">
                 <div className="statistics__item p-5">
                     <div className="statistics__number text-4xl font-bold text-[#fbdf00] text-left">
