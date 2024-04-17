@@ -2,7 +2,7 @@ import React from 'react';
 import LearnPageNavbar from '../navbar/LearnPageNavbar';
 import LearnPageSideNavbar from '../navbar/LearnPageSideNavbar';
 
-const LessonPage = () => {
+const LearnPage = () => {
     return (
         <div className='lesson-page'>
             <LearnPageNavbar />
@@ -13,4 +13,4 @@ const LessonPage = () => {
     );
 };
 
-export default LessonPage;
+export default LearnPage;

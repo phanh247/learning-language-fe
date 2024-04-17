@@ -1,8 +1,13 @@
 import React from 'react';
 import './Homepage.css';
 import Image1 from '../../images/main-hp-img1.svg';
+import { Link, useNavigate } from "react-router-dom"
 
 const Header = () => {
+    const navigate = useNavigate();
+    const redirect =()=>{
+        navigate("/level");
+    }
     return (
         <div className='header h-screen relative'>
             <div className="header__content-container absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full flex justify-between items-center">
@@ -44,7 +49,7 @@ const Header = () => {
                         </div>
                         
                         <div className="header__go-btn bg-[#ffdf00] rounded-xl w-1/4 ml-3 relative">
-                            <button className='w-full h-full rounded-xl absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-2xl font-bold'>GO</button>
+                            <button className='w-full h-full rounded-xl absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-2xl font-bold' onClick={redirect}>GO</button>
                         </div>
                     </div>
                 </div>
