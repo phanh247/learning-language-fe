@@ -29,7 +29,7 @@ const HomepageNavbar = () => {
         navigate("/login");
     }
     return (
-        <div className='homepage-navbar fixed w-full z-10 flex items-center justify-between px-12 py-6' style={{ backgroundColor, boxShadow }}>
+        <div className='homepage-navbar fixed w-full h-[100px] z-10 flex items-center justify-between px-12 py-6' style={{ backgroundColor, boxShadow }}>
             <div className="homepage-navbar__left">
                 <ul className="homepage-navbar__nav-list flex items-center justify-between">
                     <li className="homepage-navbar__nav-item">
