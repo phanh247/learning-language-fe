@@ -8,13 +8,13 @@ const Footer = () => {
                     <h4 className='footer__title font-bold mb-5'>About us</h4>
                     <ul className="footer-list">
                         <li className="footer__list-item mb-1">
-                            <a href="">About us</a>
+                            <a href="" className='hover:underline'>About us</a>
                         </li>
                         <li className="footer__list-item mb-1">
-                            <a href="">Privacy Policy</a>
+                            <a href="" className='hover:underline'>Privacy Policy</a>
                         </li>
                         <li className="footer__list-item mb-1">
-                            <a href="">Terms of Services</a>
+                            <a href="" className='hover:underline'>Terms of Services</a>
                         </li>
                     </ul>  
                 </div>
@@ -23,16 +23,16 @@ const Footer = () => {
                     <h4 className='footer__title font-bold mb-5'>For Students</h4>
                     <ul className="footer-list">
                         <li className="footer__list-item mb-1">
-                            <a href="">Pricing</a>
+                            <a href="" className='hover:underline'>Pricing</a>
                         </li>
                         <li className="footer__list-item mb-1">
-                            <a href="">Free Trial</a>
+                            <a href="" className='hover:underline'>Free Trial</a>
                         </li>
                         <li className="footer__list-item mb-1">
-                            <a href="">Courses</a>
+                            <a href="" className='hover:underline'>Courses</a>
                         </li>
                         <li className="footer__list-item mb-1">
-                            <a href="">Community</a>
+                            <a href="" className='hover:underline'>Community</a>
                         </li>
                     </ul>  
                 </div>
@@ -41,10 +41,10 @@ const Footer = () => {
                     <h4 className='footer__title font-bold mb-5'>For Teachers</h4>
                     <ul className="footer-list">
                         <li className="footer__list-item mb-1">
-                            <a href="">Teaching Privacy Policy</a>
+                            <a href="" className='hover:underline'>Teaching Privacy Policy</a>
                         </li>
                         <li className="footer__list-item mb-1">
-                            <a href="">Privacy Policy</a>
+                            <a href="" className='hover:underline'>Privacy Policy</a>
                         </li>
                     </ul>  
                 </div>
