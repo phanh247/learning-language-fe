@@ -8,6 +8,7 @@ import LoginForm from './components/login/LoginForm';
 import CourseHomepage from './components/course-page/CourseHomepage';
 import LearnPage from './components/learn-pages/LearnPage';
 import MainHomepage from './components/landing-page/MainHomepage';
+import Register from './components/register/Register';
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
         <Route path="/level" element={<ChoosePathPage/>}/>
         <Route path="/learn" element={<LearnPage/>}/>
         <Route path="/course" element={<CourseHomepage/>}/>
-        <Route path="/" element={<MainHomepage/>}>
-        </Route>
+        <Route path="/" element={<MainHomepage/>}/>
+        <Route path='/register' element={<Register />}/>
       </Routes>
     </div>
   );
