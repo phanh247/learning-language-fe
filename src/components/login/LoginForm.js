@@ -1,9 +1,6 @@
 import React from 'react';
 
 import '../login/Login.css';
-import FacebookLogo from '../../images/facebook-icon.svg';
-import LinkedInLogo from '../../images/linkedin-icon.svg';
-import GmailLogo from '../../images/gmail-icon.svg';
 import { Link, useNavigate } from "react-router-dom";
 
 
@@ -44,17 +41,17 @@ const LoginForm = () => {
                     <ul className="login__social-acc-list flex ml-3">
                         <li className="login__social-acc p-3">
                             <a href="" className='login__social-acc-link'>
-                                <img src={FacebookLogo} alt="" className='w-10 h-10' />
+                                <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415320/Phanh/facebook-icon_gtufeq.svg'} alt="" className='w-10 h-10' />
                             </a>
                         </li>
                         <li className="login__social-acc p-3">
                             <a href="" className="login__social-acc-link">
-                                <img src={LinkedInLogo} alt="" className='w-10 h-10' />
+                                <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415330/Phanh/linkedin-icon_oehtag.svg'} alt="" className='w-10 h-10' />
                             </a>
                         </li>
                         <li className="login__social-acc p-3">
                             <a href="" className="login__social-acc-link">
-                                <img src={GmailLogo} alt="" className='w-10 h-10' />
+                                <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415323/Phanh/gmail-icon_asz6vc.svg'} alt="" className='w-10 h-10' />
                             </a>
                         </li>
                     </ul>   

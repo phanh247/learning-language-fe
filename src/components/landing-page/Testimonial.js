@@ -1,7 +1,4 @@
 import React from 'react';
-import Student1 from '../../images/girl-1.svg';
-import Student2 from '../../images/girl-2.svg';
-import Student3 from '../../images/man.svg';
 
 const Testimonial = () => {
     return (
@@ -16,7 +13,7 @@ const Testimonial = () => {
                     </div>
                     
                     <div className="testimonial__author-info-container flex justify-start items-center mt-5">
-                        <img src={Student1} alt="" className="testimonial__img w-1/4 rounded-full" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415324/Phanh/girl-1_dxaso9.svg'} alt="" className="testimonial__img w-1/4 rounded-full" />
                         <div className="testimonial__author-info ml-5">
                             <h4 className="testimonial__author-name font-bold mb-1">Sophie, 25</h4>
                             <span className="testimonial__author-location text-sm">U.S.A</span>
@@ -30,7 +27,7 @@ const Testimonial = () => {
                     </div>
                     
                     <div className="testimonial__author-info-container flex justify-start items-center mt-5">
-                        <img src={Student2} alt="" className="testimonial__img w-1/4 rounded-full" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415329/Phanh/girl-2_xhpeth.svg'} alt="" className="testimonial__img w-1/4 rounded-full" />
                         <div className="testimonial__author-info ml-5">
                             <h4 className="testimonial__author-name font-bold mb-1">Juliette, 14</h4>
                             <span className="testimonial__author-location text-sm">France</span>
@@ -44,7 +41,7 @@ const Testimonial = () => {
                     </div>
                     
                     <div className="testimonial__author-info-container flex justify-start items-center mt-5">
-                        <img src={Student3} alt="" className="testimonial__img w-1/4 rounded-full" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415334/Phanh/man_yphfig.svg'} alt="" className="testimonial__img w-1/4 rounded-full" />
                         <div className="testimonial__author-info ml-5">
                             <h4 className="testimonial__author-name font-bold mb-1">Henry, 30</h4>
                             <span className="testimonial__author-location text-sm">Mexico</span>

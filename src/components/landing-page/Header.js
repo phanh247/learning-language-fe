@@ -1,6 +1,5 @@
 import React from 'react';
 import './Homepage.css';
-import Image1 from '../../images/main-hp-img1.svg';
 import { Link, useNavigate } from "react-router-dom"
 
 const Header = () => {
@@ -55,7 +54,7 @@ const Header = () => {
                 </div>
 
                 <div className="header__image w-[40%]">
-                    <img src={Image1} className='w-[90%]' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415332/Phanh/main-hp-img1_gehowy.svg'} className='w-[90%]' alt="" />
                 </div>
             </div>
         </div>

@@ -1,9 +1,4 @@
 import React from 'react';
-import LearnIcon from '../../images/learn-menu-icon.svg';
-import ExerciseIcon from '../../images/exercise-menu-icon.svg';
-import ReviewIcon from '../../images/review-menu-icon.svg';
-import LeaderBoard from '../../images/leaderboard-menu-icon.svg';
-import MoreIcon from '../../images/more-menu-icon.svg';
 
 
 const LearnPageSideNavbar = () => {
@@ -18,35 +13,35 @@ const LearnPageSideNavbar = () => {
                 </li>
                 <li className='learn-page-side-nav__item'>
                     <a href="" className='learn-page-side-nav__link'>
-                        <img src={LearnIcon} alt="" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415329/Phanh/learn-icon_vaxfmi.png'} alt="" />
                         <span className='text-white'>LEARN</span>
                     </a>
 
                 </li>
                 <li className='learn-page-side-nav__item'>
                     <a href="" className='learn-page-side-nav__link'>
-                        <img src={ExerciseIcon} alt="" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415320/Phanh/exercise-menu-icon_u2vf6o.svg'} alt="" />
                         <span className='text-white'>EXERCISE</span>
                     </a>
 
                 </li>
                 <li className='learn-page-side-nav__item'>
                     <a href="" className='learn-page-side-nav__link'>
-                        <img src={ReviewIcon} alt="" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415335/Phanh/review-menu-icon_stwstg.svg'} alt="" />
                         <span className='text-white'>REVIEW</span>
                     </a>
 
                 </li>
                 <li className='learn-page-side-nav__item'>
                     <a href="" className='learn-page-side-nav__link'>
-                        <img src={LeaderBoard} alt="" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415328/Phanh/leaderboard-menu-icon_yxwoul.svg'} alt="" />
                         <span className='text-white'>LEADERBOARD</span>
                     </a>
 
                 </li>
                 <li className='learn-page-side-nav__item'>
                     <a href="" className='learn-page-side-nav__link'>
-                        <img src={MoreIcon} alt="" />
+                        <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415333/Phanh/more-menu-icon_ekmu7d.svg'} alt="" />
                         <span className='text-white'>MORE</span>
                     </a>
 
