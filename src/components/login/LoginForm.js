@@ -6,6 +6,7 @@ import { useCookies } from "react-cookie";
 import AuthContext from "../context/AuthProvider";
 
 import { Alert, Stack } from "@mui/material";
+import HoverEffect from "../utils/HoverEffect";
 
 const isEmail = (email) =>
   /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
@@ -32,16 +33,6 @@ const LoginForm = () => {
   // Overall Form Validity
   const [formValid, setFormValid] = useState();
   const [success, setSuccess] = useState();
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  const textColor = isHovered ? "#3150aa" : "black";
 
   async function loginProcess() {
     await axios
@@ -182,13 +173,10 @@ const LoginForm = () => {
                   Remember
                 </label>
               </div>
-              <div
-                className="login__sub-input-item"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                style={{ color: textColor }}
-              >
-                <Link to="/password">Forgot your password</Link>
+              <div className="login__sub-input-item">
+                <HoverEffect defaultColor="black" hoverColor="blue">
+                  <Link to="/password">Forgot your password</Link>
+                </HoverEffect>
               </div>
             </div>
 
@@ -202,14 +190,9 @@ const LoginForm = () => {
           <br />
           <p>
             Do you have an account ?
-            <Link
-              to="/signup"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              style={{ color: textColor }}
-            >
-              Sign up now
-            </Link>
+            <HoverEffect hoverColor="blue">
+              <Link to="/register">Sign up now</Link>
+            </HoverEffect>
           </p>
         </div>
         {formValid && (
