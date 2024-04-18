@@ -21,8 +21,7 @@ const MainHomepage = () => {
             <PopularCourse />
             <Category />
             <Testimonial />
-            <Footer />
-        
+            <Footer />        
         </div>
     );
 };
