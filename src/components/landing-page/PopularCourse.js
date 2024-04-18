@@ -1,8 +1,5 @@
 import React from 'react';
 import './Homepage.css';
-import Suzhou from '../../images/suzhou.svg';
-import NewYork from '../../images/newyork.svg';
-import Tokyo from '../../images/tokyo.svg';
 import Barcelona from '../../images/barcelona.svg';
 
 const PopularCourse = () => {
@@ -12,21 +9,21 @@ const PopularCourse = () => {
 
             <div className="popular-course__grid-wrapper grid grid-cols-4 gap-x-3 justify-items-center">
                 <div className="popular-course__grid-item card bg-white rounded-xl c-shadow w-[300px] h-[450px] overflow-hidden cursor-pointer">
-                    <img src={Suzhou} alt="" className="card__img w-full" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415341/Phanh/suzhou_xjhufv.svg'} alt="" className="card__img w-full" />
                     <div className="card__content px-5 py-5">
                         <h4 className='card__title text-left font-bold text-xl mb-2'>Chinese for Beginner</h4>
                         <p className='card__text text-left line-clamp-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam quasi doloremque officiis qui sit accusantium, neque iure soluta laboriosam sunt mollitia, praesentium reiciendis eius nostrum accusamus maiores! Necessitatibus, dolorum!</p>
                     </div>
                 </div> 
                 <div className="popular-course__grid-item card bg-white rounded-xl c-shadow w-[300px] h-[450px] overflow-hidden cursor-pointer">
-                    <img src={NewYork} alt="" className="card__img w-full" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415340/Phanh/newyork_azurhu.svg'} alt="" className="card__img w-full" />
                     <div className="card__content px-5 py-5">
                         <h4 className='card__title text-left font-bold text-xl mb-2'>English for Beginner</h4>
                         <p className='card__text text-left line-clamp-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam quasi doloremque officiis qui sit accusantium, neque iure soluta laboriosam sunt mollitia, praesentium reiciendis eius nostrum accusamus maiores! Necessitatibus, dolorum!</p>
                     </div>
                 </div>
                 <div className="popular-course__grid-item card bg-white rounded-xl c-shadow w-[300px] h-[450px] overflow-hidden cursor-pointer">
-                    <img src={Tokyo} alt="" className="card__img w-full" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415343/Phanh/tokyo_lscdzs.svg'} alt="" className="card__img w-full" />
                     <div className="card__content px-5 py-5">
                         <h4 className='card__title text-left font-bold text-xl mb-2'>Japanese for Beginner</h4>
                         <p className='card__text text-left line-clamp-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus aliquam quasi doloremque officiis qui sit accusantium, neque iure soluta laboriosam sunt mollitia, praesentium reiciendis eius nostrum accusamus maiores! Necessitatibus, dolorum!</p>

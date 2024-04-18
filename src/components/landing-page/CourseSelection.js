@@ -1,17 +1,5 @@
 import React from 'react';
 import './Homepage.css';
-import UKFlag from '../../images/england-flag-round.svg';
-import ChinaFlag from '../../images/china-flag-round.svg';
-import JapanFlag from '../../images/japan-flag-round.svg';
-import SpainFlag from '../../images/spain-flag-round.svg';
-import FranceFlag from '../../images/france-flag-round.svg';
-import GermanyFlag from '../../images/germany-flag-round.svg';
-import VietnamFlag from '../../images/vietnam-flag-round.svg';
-import ItalyFlag from '../../images/italy-flag-round.svg';
-import KoreaFlag from '../../images/korea-flag-round.svg';
-import RussiaFlag from '../../images/rusia-flag-round.svg';
-import BrazilFlag from '../../images/brazil-flag-round.svg';
-import TaiwanFlag from '../../images/taiwan-flag-round.svg';
 
 
 const CourseSelection = () => {
@@ -21,51 +9,51 @@ const CourseSelection = () => {
             
             <div className="course-selection__grid-wrapper grid grid-cols-6 gap-x-2 gap-y-10">
                 <div className="course-selection__grid-item">
-                    <img src={UKFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415319/Phanh/england-flag-round_fsemcb.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>English</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={VietnamFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415346/Phanh/vietnam-flag-round_xhkve6.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Vietnamese</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={ChinaFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415317/Phanh/china-flag-round_teaq0u.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Simplified Chinese</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={JapanFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415327/Phanh/japan-flag-round_jirwm3.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Japanese</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={KoreaFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415328/Phanh/korea-flag-round_paaeza.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Korean</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={TaiwanFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415339/Phanh/taiwan-flag-round_uvkg8p.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Traditional Chinese</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={GermanyFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415321/Phanh/germany-flag-round_jy5y7i.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>German</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={SpainFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415337/Phanh/spain-flag-round_vaqjc4.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Spanish</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={FranceFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415321/Phanh/france-flag-round_lcnpvw.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>French</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={ItalyFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415325/Phanh/italy-flag-round_oaxu9u.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Italian</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={RussiaFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415335/Phanh/rusia-flag-round_gn7unw.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Russian</span>
                 </div>
                 <div className="course-selection__grid-item">
-                    <img src={BrazilFlag} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
+                    <img src={'https://res.cloudinary.com/dq5s5fsgk/image/upload/v1713415320/Phanh/brazil-flag-round_ibcjrn.svg'} className='w-1/2 my-0 mx-auto cursor-pointer hover:shadow-md ' alt="" />
                     <span className='block font-bold text-lg'>Portuguese</span>
                 </div>
                 <div className="course-selection__grid-item">
