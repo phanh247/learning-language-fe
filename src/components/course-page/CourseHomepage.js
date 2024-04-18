@@ -1,9 +1,9 @@
 import React from 'react';
 import '../course-page/CoursePage.css';
-import HomepageNavbar from '../navbar/HomepageNavbar';
 import CourseList from './CourseList';
 import CourseHeader from './CourseHeader';
 import CoursePageNavbar from '../navbar/CoursePageNavbar';
+import CourseBreadcrumb from './CourseBreadcrumb';
 
 const CourseHomepage = () => {
     return (

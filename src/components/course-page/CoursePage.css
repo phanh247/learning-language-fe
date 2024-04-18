@@ -4,3 +4,11 @@
 #667abe
 #3150aa 
 */
+
+.category-first-level-sub-nav {
+    display: none;
+}
+
+.category-second-level-sub-nav {
+    display: none;
+}
