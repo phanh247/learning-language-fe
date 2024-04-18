@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+#fbdf00
+#eed43d
+#667abe
+#3150aa 
+#91C747
+#0097b2 
+#FFDE59
 
+*/
 
 * {
   margin: 0;
@@ -39,6 +48,56 @@ code {
   transform: translate(-50%, -50%);
 }
 
+/* label */
+
+.best-seller-label {
+  background: linear-gradient(to right, #5170ff, #ff66c4);
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* tags */
+
+.beginner-tag {
+  display: inline-block;
+  background-color: #91C747;
+  padding: 1px 5px;
+  border-radius: 100px;
+  font-size: 10px;
+  color: white;
+  margin-right: 5px;
+}
+
+.immediate-tag {
+  display: inline-block;
+  background-color: #FFDE59;
+  padding: 1px 5px;
+  border-radius: 100px;
+  font-size: 10px;
+  color: white;
+  margin-right: 5px;
+}
+
+.advanced-tag {
+  display: inline-block;
+  background-color: #FF5757;
+  padding: 1px 5px;
+  border-radius: 100px;
+  font-size: 10px;
+  color: white;
+  margin-right: 5px;
+}
+
+.language-tag {
+  display: inline-block;
+  background-color: #0097b2 ;
+  padding: 1px 5px;
+  border-radius: 100px;
+  font-size: 10px;
+  color: white
+}
 
 
 
