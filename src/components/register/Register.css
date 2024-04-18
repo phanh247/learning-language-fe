@@ -1,0 +1,14 @@
+.register {
+    background-image: url('../../images/register-page-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.gmail-icon {
+    background: -webkit-linear-gradient(#FE3D00, #FBC006, #52B156, #1A77D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
