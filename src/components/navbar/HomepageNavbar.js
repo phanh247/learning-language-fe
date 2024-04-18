@@ -6,22 +6,19 @@ const HomepageNavbar = () => {
 
     const [scrollPosition, setScrollPosition] = useState(0);
 
-    // Function to handle scroll event
+
     const handleScroll = () => {
       const position = window.scrollY;
       setScrollPosition(position);
     };
   
     useEffect(() => {
-      // Add event listener when component mounts
       window.addEventListener('scroll', handleScroll);
-      // Remove event listener when component unmounts
       return () => {
         window.removeEventListener('scroll', handleScroll);
       };
-    }, []); // Empty dependency array ensures that this effect runs only once when component mounts
+    }, []); 
   
-    // Determine background color based on scroll position
     const backgroundColor = scrollPosition > 100 ? '#fbdf00' : 'transparent';
     const boxShadow = scrollPosition > 100 ? '10px 10px 20px rgba(0, 0, 0, 0.2)' : 'none';
     const navigate = useNavigate();
@@ -33,16 +30,16 @@ const HomepageNavbar = () => {
             <div className="homepage-navbar__left">
                 <ul className="homepage-navbar__nav-list flex items-center justify-between">
                     <li className="homepage-navbar__nav-item">
-                        <a href="" className="homepage-navbar__logo-link font-bold text-2xl">iLinguist</a>
+                        <Link to="/" className="homepage-navbar__logo-link font-bold text-2xl">iLinguist</Link>
                     </li>
                     <li className="homepage-navbar__nav-item">
-                        <a href="" className="homepage-navbar__learn-link">Learn</a>
+                        <Link to="/learn" className="homepage-navbar__learn-link">Learn</Link>
                     </li>
                     <li className="homepage-navbar__nav-item">
-                        <a href="" className="homepage-navbar__courses-link">Courses</a>
+                        <Link to="/course" className="homepage-navbar__courses-link" >Courses</Link>
                     </li>
                     <li className="homepage-navbar__nav-item">
-                        <a href="" className="homepage-navbar__community-link">Community</a>
+                        <Link to="/community"  className="homepage-navbar__community-link">Community</Link>
                     </li>
                 </ul>
             </div>
