@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import CategorySubNav from "../course-page/CategorySubNav";
 import { Link, useNavigate } from "react-router-dom";
+import ButtonNavbar from "./ButtonNavbar";
+import { AuthContext } from "../context/AuthProvider";
 
 const CoursePageNavbar = () => {
+
+  const { user, loginProcess, logout } = useContext(AuthContext);
+  
   const navigate = useNavigate();
   const redirectLogin = () => {
     navigate("/login");
@@ -56,22 +61,7 @@ const CoursePageNavbar = () => {
               <i class="fa-solid fa-cart-shopping"></i>
             </Link>
           </li>
-          <li className="homepage-navbar__btn-item">
-            <button
-              className="homepage-navbar__login-btn border-solid border-[1px] border-[#667abe] py-[10px] px-[30px] rounded-[50px] my-0 mx-auto w-[120px]"
-              onClick={redirectLogin}
-            >
-              Login
-            </button>
-          </li>
-          <li className="homepage-navbar__btn-item">
-            <button
-              className="homepage-navbar__signup-btn bg-[#667abe] text-white py-[10px] px-[30px] rounded-[50px] my-0 mx-auto w-[120px]"
-              onClick={redirectSignUp}
-            >
-              Sign Up
-            </button>
-          </li>
+          {user.isAuthenticated == false ? <ButtonNavbar /> : null} 
         </ul>
       </div>
     </div>

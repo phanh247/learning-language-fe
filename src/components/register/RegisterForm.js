@@ -3,7 +3,7 @@ import axios from "../utils/axios";
 import { Link, useNavigate } from "react-router-dom";
 
 // Material UI Imports
-import { Paper, TextField, Button, Chip, Alert, Stack } from "@mui/material";
+import { Alert, Stack } from "@mui/material";
 import HoverEffect from "../utils/HoverEffect";
 
 const isEmail = (email) =>

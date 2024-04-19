@@ -1,26 +1,20 @@
 import React, { useState, useContext } from "react";
 import "../login/Login.css";
 import { Link, useNavigate } from "react-router-dom";
-import axios from "../utils/axios";
-import { useCookies } from "react-cookie";
-import AuthContext from "../context/AuthProvider";
 
 import { Alert, Stack } from "@mui/material";
 import HoverEffect from "../utils/HoverEffect";
+import { AuthContext } from "../context/AuthProvider";
 
 const isEmail = (email) =>
   /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
 const isPhoneNumberFormat = (email) => /^[0-9]{10}$/i.test(email);
 const isNumeric = (email) => /^[0-9]+$/.test(email);
 
-const LOGIN_URL = "/auth/login";
-
 const LoginForm = () => {
-  //Inputs
-  const [user, setUser] = useContext(AuthContext);
-  const [cookies, setCookie] = useCookies(["user"]);
-  const navigate = useNavigate();
-  const [dataResponse, setDataResponse] = useState([]);
+
+  const { user,setUser, setCookie, loginProcess, logout } = useContext(AuthContext);
+
   const [emailInput, setEmailInput] = useState();
   const [passwordInput, setPasswordInput] = useState();
   const [rememberMe, setRememberMe] = useState();
@@ -28,52 +22,26 @@ const LoginForm = () => {
   // Inputs Errors
   const [emailError, setEmailError] = useState(false);
   const [passwordError, setPasswordError] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
 
   // Overall Form Validity
   const [formValid, setFormValid] = useState();
   const [success, setSuccess] = useState();
-
-  async function loginProcess() {
-    await axios
-      .post(
-        LOGIN_URL,
-        {
-          email: emailInput,
-          password: passwordInput,
-        },
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      )
-      .then(function (response) {
-        setDataResponse(response.data);
-        if (
-          response.data.statusCode === "BAD_REQUEST" ||
-          response.data.statusCode === "FORBIDDEN"
-        ) {
-          setFormValid(response.data.message);
-        } else {
-          setSuccess(response.data.token);
-          setCookie("accessToken", response.data.token);
-          setCookie("refreshToken", response.data.refreshToken);
-          setUser({
-            userName: "UserName",
-            isAuthenticated: true,
-            role: "ADMIN",
-          });
-          navigate("/user");
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  }
+  const navigate = useNavigate();
 
   // Label for Checkbox
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
+
+  const fakeLogin = () => {
+    if(emailInput == 'member@gmail.com' && passwordInput == '123'){
+      setUser({
+        userName: "member",
+        isAuthenticated: true,
+        role: "MEMBER",
+      });
+      setCookie("isLogined",true);
+      navigate("/");
+    }
+  };
 
   // Validation for onBlur Email
   const handleEmail = () => {
@@ -121,7 +89,8 @@ const LoginForm = () => {
       return;
     }
     setFormValid(null);
-    loginProcess();
+    // loginProcess();
+    fakeLogin();
   };
   return (
     <div className="login flex items-center justify-between h-screen">
