@@ -6,7 +6,7 @@ import CourseDetailsCertification from './CourseDetailsCertification';
 
 const CourseDetailsContent = () => {
     return (
-        <div className='course-details-content w-3/4'>
+        <div className='course-details-content w-4/6'>
             <div className="course-details-content__intro text-left mb-20">
                 <CourseDetailsIntro />
             </div>

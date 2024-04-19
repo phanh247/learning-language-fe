@@ -11,7 +11,7 @@ const CourseDetailsPage = () => {
             <CoursePageNavbar />
             
             <div className="course-details-page__body px-[7%] py-[3%]">
-                <div className="course-details-page__content-container flex">
+                <div className="course-details-page__content-container flex justify-between">
                     <CourseDetailsContent />
                     <CourseDetailsSidebar />
                 </div>
