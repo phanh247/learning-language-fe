@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CourseDetailsSidebar = () => {
     return (
@@ -27,7 +28,13 @@ const CourseDetailsSidebar = () => {
                         <button className='button__favorite w-1/5 border border-[#3150aa] p-2 rounded-md'><i class="fa-regular fa-heart text-[#cf142f]"></i></button>
                     </div>
                     <div className="course-details-sidebar__button-item mt-2">
-                        <button className='button__buy-now border w-full bg-[#eed43d] p-2 rounded-md shadow-lg text-lg font-bold text-[#667abe]'>Buy now</button>
+                        <button className='button__buy-now border w-full bg-[#eed43d] p-2 rounded-md shadow-lg uppercase font-bold text-[#667abe]'>Buy now</button>
+                    </div>
+                    <div className="course-details-sidebar__button-item mt-2">
+                        <Link to="/course-learn">
+                            <button className='button__enroll border w-full bg-[#667abe] p-2 rounded-md shadow-lg font-bold text-white'>Enroll for free</button>
+                        </Link>
+                        
                     </div>
                 </div>
 

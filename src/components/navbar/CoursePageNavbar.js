@@ -61,7 +61,7 @@ const CoursePageNavbar = () => {
               <i class="fa-solid fa-cart-shopping"></i>
             </Link>
           </li>
-          {user.isAuthenticated == false ? <ButtonNavbar /> : null} 
+          {user === null ? <ButtonNavbar /> : null} 
         </ul>
       </div>
     </div>

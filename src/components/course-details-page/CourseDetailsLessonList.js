@@ -1,5 +1,5 @@
 import React from 'react';
-import LessonListAccordion from './LessonListAccordion';
+import LessonListAccordion from '../accordion/LessonListAccordion';
 
 const CourseDetailsLessonList = () => {
     return (
