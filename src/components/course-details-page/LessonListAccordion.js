@@ -16,40 +16,31 @@ const LessonListAccordion = () => {
                 id="panel1-header"
                 >
                     <div className='accordion-summary__container flex justify-between items-center w-full'>
-                        <div className='accordion-summary__title font-bold'>Learn Chinese: Chinese Course for Beginners</div>
+                        <div className='accordion-summary__title font-bold'>Module 1: Who Are You?</div>
                         <div className='accordion-summary__duration mr-10'><span>61 lectures</span> | <span>17hr8min</span></div>
                     </div>
                 </AccordionSummary>
+                
                 <AccordionDetails>
                     <div className="accordion-details__container flex justify-between items-center">
                         <div className="accordion-details__title">
                             <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
-                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Learn Chinese - The Phonetics 1</span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Welcome to "Chinese for beginners"</span>
                         </div>
                         <div className="accordion-details__duration">
-                            13:44
+                            1 minute
                         </div>
                     </div>
                 </AccordionDetails>
+                
                 <AccordionDetails>
                     <div className="accordion-details__container flex justify-between items-center">
                         <div className="accordion-details__title">
                             <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
-                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Learn Chinese - The Phonetics 1</span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>What is Your Name?</span>
                         </div>
                         <div className="accordion-details__duration">
-                            13:44
-                        </div>
-                    </div>
-                </AccordionDetails>
-                <AccordionDetails>
-                    <div className="accordion-details__container flex justify-between items-center">
-                        <div className="accordion-details__title">
-                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-question"></i></span>
-                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Learn Chinese - The Phonetics 1</span>
-                        </div>
-                        <div className="accordion-details__duration">
-                            20 questions
+                            3 minutes
                         </div>
                     </div>
                 </AccordionDetails>
@@ -61,11 +52,273 @@ const LessonListAccordion = () => {
                 aria-controls="panel2-content"
                 id="panel2-header"
                 >
-                Accordion 2
+                    <div className='accordion-summary__container flex justify-between items-center w-full'>
+                        <div className='accordion-summary__title font-bold'>Module 2: When Do You Go To School?</div>
+                        <div className='accordion-summary__duration mr-10'><span>61 lectures</span> | <span>2hrs</span></div>
+                    </div>
                 </AccordionSummary>
                 <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Can You Count?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-book-open"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Extended Exercise: What Time is it Now?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            10 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-question"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Numbers</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel2-content"
+                id="panel2-header"
+                >
+                    <div className='accordion-summary__container flex justify-between items-center w-full'>
+                        <div className='accordion-summary__title font-bold'>Module 3: What Do You Like To Eat?</div>
+                        <div className='accordion-summary__duration mr-10'><span>4 lectures</span> | <span>2hrs</span></div>
+                    </div>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Can You Count?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-book-open"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Extended Exercise: What Time is it Now?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            10 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-question"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Numbers</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel2-content"
+                id="panel2-header"
+                >
+                    <div className='accordion-summary__container flex justify-between items-center w-full'>
+                        <div className='accordion-summary__title font-bold'>Module 4: I Like Shopping!</div>
+                        <div className='accordion-summary__duration mr-10'><span>4 lectures</span> | <span>4hrs</span></div>
+                    </div>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Can You Count?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-book-open"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Extended Exercise: What Time is it Now?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            10 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-question"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Numbers</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel2-content"
+                id="panel2-header"
+                >
+                    <div className='accordion-summary__container flex justify-between items-center w-full'>
+                        <div className='accordion-summary__title font-bold'>Module 5: Do You Live In A Big City?</div>
+                        <div className='accordion-summary__duration mr-10'><span>61 lectures</span> | <span>2hrs</span></div>
+                    </div>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Can You Count?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-book-open"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Extended Exercise: What Time is it Now?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            10 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-question"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Numbers</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel2-content"
+                id="panel2-header"
+                >
+                    <div className='accordion-summary__container flex justify-between items-center w-full'>
+                        <div className='accordion-summary__title font-bold'>Module 6: How About The Weather?</div>
+                        <div className='accordion-summary__duration mr-10'><span>61 lectures</span> | <span>2hrs</span></div>
+                    </div>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Can You Count?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-book-open"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Extended Exercise: What Time is it Now?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            10 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-question"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Numbers</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+            </Accordion>
+
+            <Accordion>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel2-content"
+                id="panel2-header"
+                >
+                    <div className='accordion-summary__container flex justify-between items-center w-full'>
+                        <div className='accordion-summary__title font-bold'>Module 7: What Is Your Hobby??</div>
+                        <div className='accordion-summary__duration mr-10'><span>61 lectures</span> | <span>3hrs</span></div>
+                    </div>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-video"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Can You Count?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-book-open"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Extended Exercise: What Time is it Now?</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            10 minutes
+                        </div>
+                    </div>
+                </AccordionDetails>
+                <AccordionDetails>
+                    <div className="accordion-details__container flex justify-between items-center">
+                        <div className="accordion-details__title">
+                            <span className='inline-block mr-5 w-6 h-6'><i class="fa-solid fa-question"></i></span>
+                            <span className='cursor-pointer hover:underline hover:text-[#3150aa]'>Numbers</span>
+                        </div>
+                        <div className="accordion-details__duration">
+                            4 minutes
+                        </div>
+                    </div>
                 </AccordionDetails>
             </Accordion>
     </div>
