@@ -1,6 +1,6 @@
 import React from 'react';
 import CoursePageNavbar from '../navbar/CoursePageNavbar';
-import CourseDetailsSidebar from './CourseDetailsSidebar';
+import CourseDetailsSidebar from '../side-navbar/CourseDetailsSidebar';
 import CourseDetailsContent from './CourseDetailsContent';
 import RecommendedCourseList from './RecommendedCourseList';
 import Footer from '../landing-page/Footer';
