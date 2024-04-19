@@ -2,7 +2,7 @@ import React from 'react';
 
 const CourseDetailsGoal = () => {
     return (
-        <div className='course-details-goal border rounded-xl mt-20 text-left p-4'>
+        <div className='course-details-goal border rounded-xl text-left p-4'>
             <h2 className='course-details-goal__title font-bold text-xl mb-5'>What you will learn</h2>
             
             <ul className='goal-list grid grid-cols-2 gap-x-7 gap-y-7 text-sm'>
