@@ -84,6 +84,90 @@ const CourseFilter = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="course-filter__item">
+            <h3 className='course-filter__title text-left font-bold text-xl mb-3 mt-5'>Topics</h3>
+                <div className="course-filter__input-selection">
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Language Certificate
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Business
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Study
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Travel
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Communication
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div className="course-filter__item">
+            <h3 className='course-filter__title text-left font-bold text-xl mb-3 mt-5'>Languages</h3>
+                <div className="course-filter__input-selection">
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            English
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Chinese
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Japanese
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Korean
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            Spanish
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            German
+                        </label>
+                    </div>
+                    <div className="course-filter__input-selection-item text-left flex items-center mb-3">
+                        <input type="checkbox" name="" id="" className='mr-3 w-5 h-5' />
+                        <label htmlFor="" className=''>
+                            French
+                        </label>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

@@ -1,0 +1,103 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Product {
+    private int id;
+    private String name;
+    private int price;
+    private int comb;
+    private String combName;
+
+    public Product(int id, String name, int price, int comb) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.comb = comb;
+        this.combName = "";
+    }
+
+    // Getters and setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public int getComb() {
+        return comb;
+    }
+
+    public void setComb(int comb) {
+        this.comb = comb;
+    }
+
+    public String getCombName() {
+        return combName;
+    }
+
+    public void setCombName(String combName) {
+        this.combName = combName;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", comb=" + comb +
+                ", combName='" + combName + '\'' +
+                '}';
+    }
+}
+
+public class ProductCombination {
+
+    public static void main(String[] args) {
+        List<Product> rows = new ArrayList<>();
+        rows.add(new Product(1, "Product A", 24000, 3));
+        rows.add(new Product(2, "Product B", 26000, 8));
+        rows.add(new Product(3, "Product C", 21000, 2));
+        rows.add(new Product(4, "Product D", 25000, 7));
+
+        List<Product> result = new ArrayList<>();
+        for (Product row : rows) {
+            int combId = row.getComb();
+            String combName = findProductName(rows, combId);
+            row.setCombName(combName);
+            result.add(row);
+        }
+
+        // Print the result
+        for (Product row : result) {
+            System.out.println(row);
+        }
+    }
+
+    private static String findProductName(List<Product> rows, int combId) {
+        for (Product row : rows) {
+            if (row.getId() == combId) {
+                return row.getName();
+            }
+        }
+        return null; // or throw an exception if the combId is not found
+    }
+}
